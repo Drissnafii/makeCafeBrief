@@ -62,12 +62,13 @@ body {
     display: flex;
     height: calc(100vh - 74px);
     align-items: center;
-    background-image: url("./../images/bg.jpg");
+    background-image: url("./../images/coofee.jpg");
     background-size: cover;
     background-position: center;
     z-index: 1;
     position: relative; /* Needed for the pseudo-element */
     padding: 30px;
+    
 }
 
 .main::before {
