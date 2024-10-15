@@ -4,7 +4,7 @@
 }
 
 header {
-  background-color: rgb(33, 33, 21);
+  background-color: rgb(50, 50, 35);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,8 +28,23 @@ header h1 {
   margin: 0;
   font-size: larg;
 }
+a:hover {
+  color: #b99272; 
+}
+
 header button {
-  background-color: whitesmoke;
+background-color: #996515;
+  color: #f5f5f5;
+  padding: 5px 25px;
+  border-radius: 15px;
+  box-shadow: navajowhite;
+  text-decoration: none;
+}
+header button:hover {
+  color: #f5f5f5; 
+  background-color: #006600;
+  border-radius: 15px;
+  transform: scale(1.1);
 }
 
 nav {
@@ -44,12 +59,10 @@ a {
   text-decoration: none; 
 }
 
-a:hover {
-  color: #b99272; 
-}
+
 
 .navbar a {
-  color: white;
+  color: #f5f5f5;
   padding: 5px 25px;
 
 }
