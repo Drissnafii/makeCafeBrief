@@ -8,7 +8,7 @@ header {
   background-color: rgb(50, 50, 35);
   display: flex;
   /* position: fixed;  */
-  /* z-index: 20; */
+  z-index: 10;
   width: 100%;
   height: auto;
   justify-content: space-between;
@@ -28,7 +28,6 @@ main {
   background-repeat: no-repeat;
   background-position: top;
   position: relative; /* Needed for the pseudo-element */
-/* margin-top: 73px;   */
 }
 
 header h1 {
@@ -89,6 +88,7 @@ nav {
   width: 100%;
   height: calc(200vh - 100vh - 74px);
   top: 0;
+  z-index: 1;
 }
 
 /* Work on the second div of main */
