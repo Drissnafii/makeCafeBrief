@@ -3,13 +3,6 @@
   padding: 0%;
   box-sizing: border-box;
 }
-.parent {
-  border: 5px red ;
-}
-.child {
-  padding: 3%;
-  font-size: 187.5%;
-}
 
 header {
   background-color: rgb(50, 50, 35);
@@ -42,9 +35,14 @@ header h1 {
   margin: 0;
   font-size: larg;
 }
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none; 
+}
 a:hover {
   color: #b99272; 
 }
+
 
 header button {
 background-color: #996515;
@@ -68,10 +66,7 @@ nav {
 }
 
 
-a {
-  color: rgb(255, 255, 255);
-  text-decoration: none; 
-}
+
 
 
 
