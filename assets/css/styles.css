@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
@@ -7,8 +7,8 @@
 header {
   background-color: rgb(50, 50, 35);
   display: flex;
-  /* position: fixed;  */
-  z-index: 10;
+  /* position: relative; */
+  /* z-index: 10; */
   width: 100%;
   height: auto;
   justify-content: space-between;
@@ -18,41 +18,73 @@ header {
 
 
 main {
+
   display: flex;
-  height: calc(200vh - 73px );
+  height: 100vh;
   /* background-color: #;>--b99272 */
-  background-color: #b99272;
+  /* background-color: #b99272; */
+  background-image: url(./../images/coofee.jpg);
 
   align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  position: relative; /* Needed for the pseudo-element */
+  position: relative;
+  /* Needed for the pseudo-element */
+}
+
+main div1 {
+  background-image: url(./../images/coofee.jpg);
+}
+
+#Thegreen {
+  /* align-items: center; */
+  color: #006600;
+  position: relative;
+  top: 0;
+  padding: 10%;
+  position: absolute;
+  right: 30%;
+  background-color: #996515;
+  border-radius: 15px;
+}
+#secdiv {
+  color: #f0f0f0;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  background-color: #006600;
+  padding: 10%;
+  border-radius: 15px;
+  
 }
 
 header h1 {
   margin: 0;
   font-size: larg;
 }
+
 a {
   color: rgb(255, 255, 255);
-  text-decoration: none; 
+  text-decoration: none;
 }
+
 a:hover {
-  color: #b99272; 
+  color: #b99272;
 }
 
 
 header button {
-background-color: #996515;
+  background-color: #996515;
   color: #f5f5f5;
   padding: 5px 25px;
   border-radius: 15px;
   box-shadow: navajowhite;
   text-decoration: none;
 }
+
 header button:hover {
-  color: #f5f5f5; 
+  color: #f5f5f5;
   background-color: #006600;
   border-radius: 15px;
   transform: scale(1.1);
@@ -76,19 +108,17 @@ nav {
 }
 
 .navbar a:hover {
- color: white; 
- background-color: #8B4513;
- border-radius: 15px;
+  color: white;
+  background-color: #8B4513;
+  border-radius: 15px;
+}
+
+footer {
+  color: #fdfdfd;
+  background-color: rgb(50, 50, 35);
+  padding: 5px 25px;
+  position: relative;
+  text-align: center;
 }
 
 /* controle the backround image */
-.fixed-backround img{
-  object-fit: cover;
-  position: absolute;
-  width: 100%;
-  height: calc(200vh - 100vh - 74px);
-  top: 0;
-  z-index: 1;
-}
-
-/* Work on the second div of main */
