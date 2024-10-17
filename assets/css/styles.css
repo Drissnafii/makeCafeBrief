@@ -2,6 +2,7 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  justify-content: center;
 }
 
 header {
@@ -25,38 +26,16 @@ main {
   /* background-color: #b99272; */
   background-image: url(./../images/coofee.jpg);
 
-  align-items: center;
+  /* align-items: center; */
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  position: relative;
+  /* background-repeat: no-repeat; */
+  /* background-position: top; */
+  /* position: relative; */
   /* Needed for the pseudo-element */
 }
 
 main div1 {
   background-image: url(./../images/coofee.jpg);
-}
-
-#Thegreen {
-  /* align-items: center; */
-  color: #006600;
-  position: relative;
-  top: 0;
-  padding: 10%;
-  position: absolute;
-  right: 30%;
-  background-color: #996515;
-  border-radius: 15px;
-}
-#secdiv {
-  color: #f0f0f0;
-  align-items: center;
-  align-content: flex-start;
-  position: relative;
-  background-color: #006600;
-  padding: 10%;
-  border-radius: 15px;
-  
 }
 
 header h1 {
@@ -69,8 +48,9 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a :hover {
   color: #b99272;
+  /* display: block; */
 }
 
 
@@ -121,4 +101,95 @@ footer {
   text-align: center;
 }
 
-/* controle the backround image */
+.mycontainer {
+
+  background-color: #EDE0D4;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+  width: auto;
+  margin: auto;
+  height: 50vh;
+  gap: 10px;
+  box-sizing: border-box;
+
+  /* box-sizing: border-box; */
+}
+
+.item {
+  text-align: center;
+  padding: 20px;
+  /*Add Padding for better spacing between text ...*/
+  width: 33.33%;
+  border-radius: 15px;
+
+}
+
+.item:hover {
+  background-color: #8A5B4C;
+  transition: background-color 0.3s ease;
+}
+
+.item-1 {
+  background-color: #D7BFAE;
+}
+
+.item-2 {
+  background-color: #C9A27A;
+}
+
+.item-3 {
+  background-color: #A67B5B;
+}
+
+.active {
+  border-bottom: 2px solid rgb(209, 179, 28);
+  border-radius: 20px;
+}
+
+/*******Contact Page*******/
+.contact-container {
+  width: 100vh;
+  margin-top: 20px;
+  margin-bottom: 20vh;
+  padding: 20px;
+  background-color: #EDE0D4;
+  border-radius: 15px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 19px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #C9A27A;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #996515;
+  color: #f5f5f5;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+}
+
+.contact-form button:hover {
+  background-color: #457445;
+}
