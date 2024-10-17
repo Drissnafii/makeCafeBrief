@@ -19,11 +19,11 @@ header {
 
 
 main {
-
   display: flex;
   height: 100vh;
   /* background-color: #;>--b99272 */
   /* background-color: #b99272; */
+  background-position: center;
   background-image: url(./../images/coofee.jpg);
 
   /* align-items: center; */
@@ -78,9 +78,6 @@ nav {
 
 
 
-
-
-
 .navbar a {
   color: #f5f5f5;
   padding: 5px 25px;
@@ -100,6 +97,8 @@ footer {
   position: relative;
   text-align: center;
 }
+
+.itms-main {}
 
 .mycontainer {
 
@@ -125,7 +124,10 @@ footer {
   /*Add Padding for better spacing between text ...*/
   width: 33.33%;
   border-radius: 15px;
-
+  display: flex;
+  flex-direction: column;
+  /* gap: 92px; */
+  justify-content: space-between;
 }
 
 .item:hover {
@@ -192,4 +194,48 @@ footer {
 
 .contact-form button:hover {
   background-color: #457445;
+}
+
+
+/********Gallery styling***********/
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.gallery-item {
+  flex: 1 1 300px;
+  margin: 10px;
+  text-align: center;
+  background-color: #EDE0D4;
+  border-radius: 15px;
+  padding: 15px;
+  max-width: calc(33.33% - 20px);
+}
+
+.gallery-item img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+}
+
+.gallery-item h3 {
+  margin-top: 10px;
+}
+
+/* Contact form styles */
+.contact-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #EDE0D4;
+  border-radius: 15px;
+}
+.footer-gallery {
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0px;
 }
