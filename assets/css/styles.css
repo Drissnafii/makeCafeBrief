@@ -8,8 +8,6 @@
 header {
   background-color: rgb(50, 50, 35);
   display: flex;
-  /* position: relative; */
-  /* z-index: 10; */
   width: 100%;
   height: auto;
   justify-content: space-between;
@@ -21,17 +19,9 @@ header {
 main {
   display: flex;
   height: 100vh;
-  /* background-color: #;>--b99272 */
-  /* background-color: #b99272; */
   background-position: center;
   background-image: url(./../images/coofee.jpg);
-
-  /* align-items: center; */
   background-size: cover;
-  /* background-repeat: no-repeat; */
-  /* background-position: top; */
-  /* position: relative; */
-  /* Needed for the pseudo-element */
 }
 
 main div1 {
@@ -50,7 +40,6 @@ a {
 
 a :hover {
   color: #b99272;
-  /* display: block; */
 }
 
 
@@ -121,12 +110,10 @@ footer {
 .item {
   text-align: center;
   padding: 20px;
-  /*Add Padding for better spacing between text ...*/
   width: 33.33%;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  /* gap: 92px; */
   justify-content: space-between;
 }
 
